@@ -1,0 +1,27 @@
+<!--pages/apply/apply.wxml-->
+<view class="apply">
+  <view class="picture">
+    <navigator url="../apply/apply?title=apply">
+        <image src="../../images/phone.png" class="phone"></image>
+    </navigator>
+    <navigator url="../application/application?title=application">
+        <image src="../../images/identity.png" class="identity"></image>
+    </navigator> 
+  </view>
+	<view class="count">
+		<image src="../../images/person.png" class="people"></image>
+    <view class="line"></view>
+		<input type="text" placeholder="请输入您的手机号"/>
+	</view>
+	<view class="password">
+		<image src="../../images/code.png" class="code"></image>
+    <view class="line"></view>
+		<input type="password" placeholder="请输入验证码"/>
+		<button>获取验证码</button>
+	</view>
+	<view class="bottom">
+        <navigator url="../application/application?title=application">
+		    <button>下一步</button>
+        </navigator>
+	</view>
+</view>

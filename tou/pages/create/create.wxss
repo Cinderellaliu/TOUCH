@@ -1,0 +1,210 @@
+/* pages/create/create.wxss */
+.create{
+	height:120rpx;
+	width:100%;
+	font-size:30rpx;
+	text-align:center;
+	padding-top:9rpx;
+	border-top:1rpx solid #dbdbdb;
+}
+.create button{
+	height:88rpx;
+	width:710rpx;
+	color:#fff;
+	background:#fa5757;
+	line-height:88rpx;
+	border-radius:40rpx;
+	border:none;
+	outline:none;
+}
+.title,.time{
+	height:100rpx;
+	width:100%;
+	font-size:26rpx;
+	padding-left:20rpx;
+	line-height:100rpx;
+}
+.title text,.time text{
+	float:left;
+}
+.title input{
+	width:564rpx;
+	height:78rpx;
+	border:1rpx solid #dbdbdb;
+	margin-left:27rpx;
+	margin-top:10rpx;
+	padding-left:24rpx;
+  box-sizing:border-box;
+  float:left;
+}
+.time input{
+	width:400rpx;
+	height:100%;
+	padding-left:24rpx;
+	border:none;
+	float:left;
+}
+.new{
+	width:564rpx;
+	height:78rpx;
+	border:1rpx solid #dbdbdb;
+	margin-left:27rpx;
+	box-sizing:border-box;
+	margin-top:10rpx;
+	float:left;
+}
+.time .new image{
+	width:24rpx;
+	height:13rpx;
+	float:right;
+	margin-right:20rpx;
+	margin-top:33rpx;
+}
+.kind input::placeholder,.title input::placeholder,.time input::placeholder{
+  	color:#999999;
+}
+.word{
+	height:44rpx;
+	width:100%;
+	margin-top:20rpx;
+	padding-left:20rpx;
+}
+.word .key{
+	font-size:26rpx;
+	color:#000000;
+}
+.word .limit{
+	font-size:21rpx;
+	color:#999999;
+}
+.section .area{
+	margin-left:20rpx;
+	height:298rpx;
+	width:710rpx;
+	box-sizing:border-box;
+	border:1rpx solid #dbdbdb;
+	margin-top:20rpx;
+	font-size:26rpx;
+	color:#000;
+}
+.dress{
+	margin-top:18rpx;
+}
+.picture{
+	height:44rpx;
+	width:100%;
+	margin-top:10rpx;
+	padding-left:20rpx;
+}
+.picture .image{
+	font-size:26rpx;
+	color:#000000;
+}
+.add{
+	height:330rpx;
+	width:100%;
+	padding-left:20rpx;
+	padding-right:20rpx;
+	margin-top:20rpx;
+}
+.add image{
+	height:100%;
+	width:710rpx;
+}
+.active,.no{
+	height:98rpx;
+	width:710rpx;
+	margin:40rpx 20rpx 0 20rpx;
+	font-size:26rpx;
+	line-height:98rpx;
+	color:#333;
+	border-bottom:1rpx solid #dbdbdb;
+}
+.active switch{
+	height:62rpx;
+	width:102rpx;
+	color:#363637;
+	float:right;
+}
+.no{
+	margin-top:0;
+}
+.no switch{
+	height:62rpx;
+	width:102rpx;
+	float:right;
+}
+.display_show{
+  display: block;
+  height:80rpx;
+	width:710rpx;
+	margin:0 20rpx 0 20rpx;
+	background:#f5f5f5;
+	border:1rpx solid #dbdbdb;
+	box-sizing:border-box;
+	font-size:26rpx;
+	color:#000000;
+	padding-left:20rpx;
+	line-height:80rpx;
+	border-top:none;
+}
+.display_none{
+    display: none;
+}
+.list .list1{
+	height:80rpx;
+	width:710rpx;
+	margin:19rpx 20rpx 0 20rpx;
+	background:#fff;
+	border:1rpx solid #dbdbdb;
+	box-sizing:border-box;
+	font-size:26rpx;
+	color:#000000;
+	padding-left:20rpx;
+	line-height:80rpx; 
+}
+.down image{
+	width:24rpx;
+	height:13rpx;
+}
+.down{
+	width:24rpx;
+	height:13rpx;
+	margin-right:20rpx;
+	float:right;
+}
+.list .display_show:hover{
+	background:#fa5757;
+	color:#fff;
+}
+.notice{
+	height:60rpx;
+	width:100%;
+	margin-top:20rpx;
+	padding-left:64rpx;
+	padding-right:20rpx;
+	font-size:20rpx;
+	line-height:60rpx;
+} 
+.notice .not1{
+	color:#fa5757;
+}
+.notice .not2{
+	color:#999;
+	padding-left:16rpx;
+}
+.ok{
+	height:85rpx;
+	width:100%;
+	text-align:center;
+}
+.ok button{
+	height:85rpx;
+	width:526rpx;
+	margin-bottom:13rpx;
+  line-height:85rpx;
+	color:#fff;
+	background:#fa5757;
+	border-radius:40rpx;
+	font-size:30rpx;
+}

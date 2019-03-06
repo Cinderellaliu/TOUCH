@@ -1,0 +1,69 @@
+<!--pages/message/message.wxml-->
+<view class="message">
+    <view class="box">
+        <navigator url="../event/event?title=event">
+            <button>活动主题</button>
+        </navigator>
+        <view class="chatbox">
+            <image src="../../images/head.png" class="head"></image>
+            <view class="chat">
+                <text class="title">双鱼座珍珠</text>
+                <text class="time">2018.12.12~12:12</text>
+                <text class="content">在吗？</text>
+            </view>
+        </view>
+        <view class="chatbox">
+            <image src="../../images/head.png" class="head"></image>
+            <view class="chat">
+                <text class="title">双鱼座珍珠</text>
+                <text class="time">2018.12.12~12:12</text>
+                <text class="content">在吗？</text>
+            </view>
+        </view>
+        <view class="chatbox">
+            <image src="../../images/head.png" class="head"></image>
+            <view class="chat">
+                <text class="title">双鱼座珍珠</text>
+                <text class="time">2018.12.12~12:12</text>
+                <text class="content">在吗？</text>
+            </view>
+        </view>
+        <view class="get">
+            <text class="more">查看更多</text>
+            <image src="../../images/down.png" class="down"></image>
+        </view>
+    </view>
+    <view class="box">
+        <navigator url="../event/event?title=event">
+            <button>活动主题</button>
+        </navigator>
+        <view class="chatbox">
+            <image src="../../images/head.png" class="head"></image>
+            <view class="chat">
+                <text class="title">双鱼座珍珠</text>
+                <text class="time">2018.12.12~12:12</text>
+                <text class="content">在吗？</text>
+            </view>
+        </view>
+        <view class="chatbox">
+            <image src="../../images/head.png" class="head"></image>
+            <view class="chat">
+                <text class="title">双鱼座珍珠</text>
+                <text class="time">2018.12.12~12:12</text>
+                <text class="content">在吗？</text>
+            </view>
+        </view>
+        <view class="chatbox">
+            <image src="../../images/head.png" class="head"></image>
+            <view class="chat">
+                <text class="title">双鱼座珍珠</text>
+                <text class="time">2018.12.12~12:12</text>
+                <text class="content">在吗？</text>
+            </view>
+        </view>
+        <view class="get">
+            <text class="more">查看更多</text>
+            <image src="../../images/down.png" class="down"></image>
+        </view>
+    </view>
+</view>

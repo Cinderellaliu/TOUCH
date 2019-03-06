@@ -1,0 +1,36 @@
+<!--pages/share/share.wxml-->
+<view class="activity">
+	<view class="June">
+    <image src="../../images/sky.png"></image>
+    <view class="theme">
+      <view class="hurry">六月赶海活动</view>
+      <view class="data">3/30-4/5</view>
+    </view> 
+  </view>
+  <view class="success">活动成功</view>
+  <view class="details">
+  	<text>你报名某某某 活动主题简单介绍、活动主题简单介绍、活动主题简单介绍、活动主题简单介绍、样的活动成功。</text>
+  </view>
+  <view class="share">
+  	<text>已经报名了20人，快去分享来提高碰趣率。分享三次以上可以提高碰趣率50%。</text>
+  </view>
+</view>
+<view class="mode">
+  <view class="weChat">
+   <image src="../../images/weChat.png"></image>
+   <text>微信</text>
+  </view>
+  <view class="friends">
+   <image src="../../images/friends.png"></image>
+   <text>朋友圈</text>
+  </view>
+</view>
+<view class="number">碰趣人数</view>
+<view class="people">
+  <image src="../../images/man.png" class="man"></image>
+  <image src="../../images/woman.png" class="woman"></image>
+  <image src="../../images/man.png" class="boy"></image>
+  <image src="../../images/woman.png" class="woman"></image>
+  <image src="../../images/more.png" class="more"></image>
+</view>
+<view class="publisher">联系发布人</view>

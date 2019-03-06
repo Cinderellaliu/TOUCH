@@ -1,0 +1,81 @@
+<!--pages/my/my.wxml-->
+<view class="name">
+	<image src="../../images/portrait.png"></image>
+  <view>杨颖</view>
+</view>
+<view class="list">
+	<view class="join">
+        <navigator url="../join/join?title=join" hover-class="navigator-hover">
+            <image src="../../images/join.png"></image>
+            <text>我参与的活动</text>
+            <image src="../../images/to.png" class="to"></image>
+        </navigator>
+	</view>
+	<view class="release">
+		<navigator url="../release/release?title=release" hover-class="navigator-hover">
+            <image src="../../images/release.png"></image>
+		    <text>我发布的活动</text>
+		    <image src="../../images/to.png" class="to"></image>
+        </navigator>
+	</view>
+	<view class="trip">
+        <navigator url="../trip/trip?title=trip" hover-class="navigator-hover">
+            <image src="../../images/trip.png"></image>
+            <text>我的行程</text>
+            <image src="../../images/to.png" class="to"></image>
+        </navigator>
+	</view>
+	<view class="settled">
+        <navigator url="../apply/apply?title=apply">
+            <image src="../../images/settled.png"></image>
+            <text>申请入驻碰趣</text>
+            <image src="../../images/to.png" class="to"></image>
+        </navigator>
+	</view>
+	<view class="establish">
+        <navigator url="../create/create?title=create">
+            <image src="../../images/establish.png"></image>
+            <text>马上创建主题</text>
+            <image src="../../images/to.png" class="to"></image>
+        </navigator>
+	</view>
+	<view class="authentication">
+        <navigator url="../cards/cards?title=cards">
+            <image src="../../images/authentication.png"></image>
+            <text>身份认证</text>
+            <image src="../../images/to.png" class="to"></image>
+        </navigator>
+	</view>
+	<view class="proposal">
+        <image src="../../images/proposal.png"></image>
+        <text>反馈建议</text>
+        <image src="../../images/to.png" class="to"></image>
+	</view>
+	<view class="message">
+        <navigator url="../message/message?title=message">
+            <image src="../../images/message.png"></image>
+            <text>我的留言区</text>
+            <image src="../../images/to.png" class="to"></image>
+        </navigator>
+	</view>
+</view>
+<view class="buttom">
+	<view class="touchDay">
+        <navigator url="../map/map?title=map">
+            <image src="../../images/touchDay.png"></image>
+            <view>当天碰</view>
+        </navigator>
+	</view>
+	<view class="find">
+        <navigator url="../found/found?title=found">
+            <image src="../../images/find.png"></image>
+            <view>发现</view>
+        </navigator>
+	</view>
+	<view class="my">
+        <navigator url="../my/my?title=my">
+            <image src="../../images/my.png"></image>
+            <view>我的</view>
+        </navigator>
+	</view>
+</view>

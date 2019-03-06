@@ -1,0 +1,27 @@
+/* pages/active/active.wxss */
+.active .e-chat{
+  margin-bottom:98rpx;
+}
+.active .ft{
+  width:100%;
+  position: fixed;
+  bottom:0;
+  z-index:999;
+}
+.active .ft view{
+  float: left;
+  padding:32rpx 0;
+  box-sizing: border-box;
+  width:calc(50% - 1rpx);
+  text-align: center;
+  line-height: 1;
+  color:white;
+  font-size:33rpx;
+}
+.active .ft .add{
+  background:#fa5757;
+  border-right:2rpx solid #fff;
+}
+.active .ft .volun{
+  background:#00bddb;
+}

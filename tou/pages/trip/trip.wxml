@@ -1,0 +1,41 @@
+<!--pages/trip/trip.wxml-->
+<import src="../../template/calendar/index.wxml"/>
+<view class="trip">
+   <view class="calendar-box">
+    <template is="calendar" data="{{...calendar}}" />
+  </view> 
+  <view class="route">
+    <view class="tree">
+        <navigator url="../join/join?title=join">
+            <image src="../../images/tree.png"></image>
+            <text>梧桐树主题线路</text>
+        </navigator>
+    </view>
+    <view class="tree">
+        <navigator url="../join/join?title=join">
+            <image src="../../images/tree.png"></image>
+            <text>梧桐树主题线路</text>
+        </navigator>
+    </view>
+  </view>
+  <view class="state">
+    <view class="touchDay">
+        <navigator url="../map/map?title=map">
+            <image src="../../images/touchDay.png"></image>
+            <view>当天碰</view>
+        </navigator>
+    </view>
+    <view class="find">
+        <navigator url="../found/found?title=found">
+            <image src="../../images/find.png"></image>
+            <view>发现</view>
+        </navigator>
+    </view>
+    <view class="my">
+        <navigator url="../my/my?title=my">
+            <image src="../../images/my.png"></image>
+            <view>我的</view>
+        </navigator>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+/* pages/found/found.wxss */
+.found{
+  padding:12rpx 0 0;
+  font-family: "PingFangSC";
+}

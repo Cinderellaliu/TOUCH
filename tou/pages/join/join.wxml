@@ -1,0 +1,58 @@
+<!--pages/join/join.wxml-->
+<view class="join">
+  <view class="line">桃花主题线路</view>
+  <view class="peach">
+    <image src="../../images/peach.png"></image>
+  </view>
+  <view class="detail">
+    <text class="d-title">活动详情</text>
+    <view class="d-main">
+      <text>为什么在这个季节去这里？</text>
+      <text>只为遇见像桃花一般的你</text>
+      <text>三四月份的西藏林芝，桃花满山盛开</text>
+      <text>就差你在这春色里</text>
+    </view>
+    <view class="d-more">
+      <view class="d-list">
+        <view>
+          <view class="sub">发布人:</view>
+          <view class="name first">杨颖</view>
+          <view class="cert">已认证</view>
+        </view>
+        <view class="sub">活动费用:</view>
+        <view class="name">￥20元/人</view>
+        <view class="sub">活动时间:</view>
+        <view class="name">2018年3月8
+          <text>中午12:00</text>
+        </view>
+        <view class="sub space">活动成团人数:</view>
+        <view class="name last space">10/40人</view>
+      </view>
+    </view>
+    <view class="goTouch">
+        <navigator url="../create/create?title=create">
+            <button>去发布</button>
+        </navigator>
+    </view>
+  </view>
+  <view class="buttom">
+    <view class="touchDay">
+        <navigator url="../map/map?title=map">
+            <image src="../../images/touchDay.png"></image>
+            <view>当天碰</view>
+        </navigator>
+    </view>
+    <view class="find">
+        <navigator url="../found/found?title=found">
+            <image src="../../images/find.png"></image>
+            <view>发现</view>
+        </navigator>
+    </view>
+    <view class="my">
+        <navigator url="../my/my?title=my">
+            <image src="../../images/my.png"></image>
+            <view>我的</view>
+        </navigator>
+    </view>
+  </view>
+</view>

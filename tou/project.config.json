@@ -1,0 +1,133 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.94",
+	"appid": "touristappid",
+	"projectname": "touch-4-15",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 15,
+			"list": [
+				{
+					"id": -1,
+					"name": "cards",
+					"pathName": "pages/cards/cards",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "message",
+					"pathName": "pages/message/message",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "found",
+					"pathName": "pages/found/found",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "map",
+					"pathName": "pages/map/map",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "event",
+					"pathName": "pages/event/event",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "active",
+					"pathName": "pages/active/active",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "trip",
+					"pathName": "pages/trip/trip",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "join",
+					"pathName": "pages/join/join",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "apply",
+					"pathName": "pages/apply/apply",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "application",
+					"pathName": "pages/application/application",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "confirm",
+					"pathName": "pages/confirm/confirm",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "my",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "share",
+					"pathName": "pages/share/share",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "create",
+					"pathName": "pages/create/create",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "release",
+					"pathName": "pages/release/release",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "upload",
+					"pathName": "pages/upload/upload",
+					"query": ""
+				}
+			]
+		}
+	}
+}

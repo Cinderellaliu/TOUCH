@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/cards/cards",
+    "pages/message/message",
+    "pages/found/found",
+    "pages/map/map",
+    "pages/event/event",
+    "pages/active/active",
+    "pages/trip/trip",
+    "pages/apply/apply",
+    "pages/application/application",
+    "pages/confirm/confirm",
+    "pages/my/my",
+    "pages/share/share",
+    "pages/join/join",
+    "pages/create/create",
+    "pages/release/release",
+    "pages/upload/upload"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "碰趣， 小时游",
+    "navigationBarTextStyle":"black"
+  }
+}

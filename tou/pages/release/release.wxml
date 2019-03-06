@@ -1,0 +1,152 @@
+<!--pages/release/release.wxml-->
+<view class="found">
+  <view class="tab">
+    <view class="theme">今日主题</view>
+    <view class="back">精彩回放</view>
+  </view>
+  <view class="body">
+    <view>
+      <view class="banner">
+        <swiper indicator-dots="true" indicator-color="rgba(255,255,255,.3)" indicator-active-color="#fff" class="bgbanner">
+          <swiper-item>
+            <image src="../../images/banner1.png" class="banner-image"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner1.png" class="banner-image"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner1.png" class="banner-image"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner1.png" class="banner-image"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner1.png" class="banner-image"></image>
+          </swiper-item>
+        </swiper>
+        <view class="head">
+          <image src="../../images/yhead.png" class="head-image"></image>
+          <view class="swiper-font">
+            <text class="swiper-title">三月桃林芳菲</text>
+            <text class="swiper-text">3/30-4/5</text>
+          </view>
+        </view>
+      </view>
+      <view class="detail">
+        <text class="d-title">活动详情</text>
+        <view class="d-main">
+          <text>为什么在这个季节去这里？</text>
+          <text>只为遇见像桃花一般的你</text>
+          <text>三四月份的西藏林芝，桃花满山盛开</text>
+          <text>就差你在这春色里</text>
+        </view>
+        <view class="d-more">
+          <view class="d-list">
+            <text class="d-name">发布人</text>
+            <text class="d-num d-num3">杨颖</text>
+            <text class="cert">已认证</text>
+          </view>
+          <view class="d-list">
+            <text class="d-name">活动费用</text>
+            <text class="d-num">￥20元/人</text>
+          </view>
+          <view class="d-list">
+            <text class="d-name">活动时间</text>
+            <text class="d-num">2018年3月8<text class="d-space">中午12:00</text></text>
+          </view>
+          <view class="d-list last">
+            <text class="d-name">成团人数</text>
+            <text class="d-num">35人成团</text>
+          </view>
+        </view>
+      </view>
+      <view class="btn-go">
+        <button class="btn-over">活动已结束</button>
+        <navigator url="../upload/upload?title=upload">
+            <button class="btn-up">上传活动图片</button>
+        </navigator>
+      </view>
+    </view>
+    <view>
+      <view class="banner">
+        <swiper indicator-dots="true" indicator-color="rgba(255,255,255,.3)" indicator-active-color="#fff" class="bgbanner">
+          <swiper-item>
+            <image src="../../images/banner2.png" class="banner-image"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner2.png" class="banner-image"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner2.png" class="banner-image"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner2.png" class="banner-image"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner2.png" class="banner-image"></image>
+          </swiper-item>
+        </swiper>
+        <view class="head">
+          <image src="../../images/yhead.png" class="head-image"></image>
+          <view class="swiper-font">
+            <text class="swiper-title">六月赶海活动</text>
+            <text class="swiper-text">6/19-6/30</text>
+          </view>
+        </view>
+      </view>
+      <view class="detail">
+        <text class="d-title">活动详情</text>
+        <view class="d-main">
+          <text>秋水共长天一色</text>
+          <text>夕阳映照下的浪花，也泛着粉色的光</text>
+        </view>
+        <view class="d-more">
+          <view class="d-list">
+            <text class="d-name">发布人</text>
+            <text class="d-num d-num3">杨颖</text>
+            <text class="cert">已认证</text>
+          </view>
+          <view class="d-list">
+            <text class="d-name">活动费用</text>
+            <text class="d-num">￥20元/人</text>
+          </view>
+          <view class="d-list">
+            <text class="d-name">活动时间</text>
+            <text class="d-num">2018年3月8<text class="d-space">中午12:00</text></text>
+          </view>
+          <view class="d-list last">
+            <text class="d-name">成团人数</text>
+            <text class="d-num">35人成团</text>
+          </view>
+        </view>
+      </view>
+      <view class="btn-go">
+        <button class="btn-over">活动已结束</button>
+        <navigator url="../upload/upload?title=upload">
+            <button class="btn-up">上传活动图片</button>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <!-- 底部 -->
+  <view class="state">
+    <view class="touchDay">
+        <navigator url="../map/map?title=map">
+            <image src="../../images/touchDay.png"></image>
+            <view>当天碰</view>
+        </navigator>
+    </view>
+    <view class="find">
+        <navigator url="../found/found?title=found">
+            <image src="../../images/find.png"></image>
+            <view>发现</view>
+        </navigator>
+    </view>
+    <view class="my">
+        <navigator url="../my/my?title=my">
+            <image src="../../images/my.png"></image>
+            <view>我的</view>
+        </navigator>
+    </view>
+  </view>
+</view>

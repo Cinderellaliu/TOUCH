@@ -1,0 +1,27 @@
+<!--pages/application/application.wxml-->
+<!--pages/apply/apply.wxml-->
+<view class="apply">
+  <view class="picture">
+    <navigator url="../apply/apply?title=apply">
+        <image src="../../images/phone.png" class="phone"></image>
+    </navigator>
+    <navigator url="../application/application?title=application">
+        <image src="../../images/identity.png" class="identity"></image> 
+    </navigator>
+  </view>
+	<view class="count">
+		<image src="../../images/person.png" class="people"></image>
+    <view class="line"></view>
+		<input type="text" placeholder="请输入您的真实姓名"/>
+	</view>
+	<view class="password">
+		<image src="../../images/person.png" class="people"></image>
+    <view class="line"></view>
+		<input type="password" placeholder="请输入您的身份证号"/>
+	</view>
+	<view class="bottom">
+        <navigator url="../confirm/confirm?title=confirm">
+		    <button>确认认证</button>
+        </navigator>
+	</view>
+</view>

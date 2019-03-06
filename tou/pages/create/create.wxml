@@ -1,0 +1,97 @@
+<!--pages/create/create.wxml-->
+<view class="create">
+	<button>活动主题创建</button>
+</view>
+<view class="time">
+	<text>主题时长 :</text>
+	<view class="new">
+		<input placeholder="免费活动"/>	
+		<image src="../../images/down.png"></image>
+	</view>
+</view>
+<view class="title">
+	<text>主题标题 :</text>
+	<input placeholder=""/>
+</view>
+<view class="word">
+	<text class="key">主题靓点关键词: </text>
+	<text class="limit">(限制50字)</text>
+</view>
+<view class="section">
+  <textarea class="area" maxlength="50"/>
+</view>
+<view class="word">
+	<text class="key">主题详细内容: </text>
+</view>
+<view class="section">
+  <textarea class="area"/>
+</view>
+<view class="title dress">
+	<text>详细地址 :</text>
+	<input placeholder=""/>
+</view>
+<view class="title">
+	<text>联系手机 :</text>
+	<input placeholder=""/>
+</view>
+<view class="title">
+	<text>主题人数 :</text>
+	<input placeholder=""/>
+</view>
+<view class="title">
+	<text>开始时间 :</text>
+	<input placeholder=""/>
+</view>
+<view class="time">
+	<text>主题时长 :</text>
+	<view class="new">
+		<input placeholder="0.5h"/>	
+		<image src="../../images/down.png"></image>
+	</view>
+</view>
+<view class="title">
+	<text>成人单价 :</text>
+	<input placeholder="元/人"/>
+</view>
+<view class="title">
+	<text>儿童单价 :</text>
+	<input placeholder="元/人"/>
+</view>
+<view class="picture">
+	<text class="image">主题形象图: </text>
+</view>
+<view class="add">
+	<image src="../../images/add.png"></image>
+</view>
+<view class="active">
+	<text>活动进行中是否能报名</text>
+	<switch bindchange="switch2Change" color="#363637"/>
+</view>
+<view class="no">
+	<text>是否重复发布</text>
+	<switch checked bindchange="switch1Change"  color="#fa5757"/>
+</view>
+<view class="list">
+	<view class="list1">
+		<text>重复</text>
+		<view class="down">
+			<image src="../../images/down.png"  bindtap="showitem"></image>
+		</view>
+	</view>
+	<view class="week">
+		 <view class="{{open?'display_show':'display_none'}}">每周日</view>
+		<view class="{{open?'display_show':'display_none'}}">每周一</view>
+		<view class="{{open?'display_show':'display_none'}}">每周二</view>
+		<view class="{{open?'display_show':'display_none'}}">每周三</view>
+		<view class="{{open?'display_show':'display_none'}}">每周四</view>
+		<view class="{{open?'display_show':'display_none'}}">每周五</view>
+		<view class="{{open?'display_show':'display_none'}}">每周六</view>
+	</view>
+</view>
+<view class="notice">
+	<text class="not1">注意: </text>
+	<text class="not2">仅限从活动主题当天开始的时间、一个月内重复发布。</text>	
+</view>	
+<view class="ok">
+	<button>确定提交</button>
+</view>
